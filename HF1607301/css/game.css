@@ -1,0 +1,41 @@
+body{
+    overflow: hidden;
+}
+@-webkit-keyframes wheelrun {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.wheel{
+    animation:wheelrun 0.3s ease-out infinite;
+}
+#pwd1-error{
+    color: red;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+#psw1-error{
+    color: red;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+#psw2-error{
+    color: red;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+#username-error{
+    color: red;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+.cli{
+    border: 1px solid rgb(38, 159, 152);
+}
+/*@-webkit-keyframes  weel_going{*/
+    /*from{transform: rotate(0deg);}*/
+    /*to{transform: rotate(2deg);}*/
+/*}*/
